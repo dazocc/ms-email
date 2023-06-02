@@ -1,0 +1,26 @@
+### Send POST request with json body
+POST http://localhost:8080/api/v1/email
+Content-Type: application/json
+
+{
+  "emailPara": "dazocc@gmail.com",
+  "emailDe": "dazocc@gmail.com",
+  "assunto": "teste usando aws",
+  "texto": "aqui vai um teste",
+  "provedorEmailType": "AWS"
+}
+
+### Send POST request with json body
+POST http://localhost:8080/api/v1/email/jms
+Content-Type: application/json
+
+{
+  "emailPara": "dazocc@gmail.com",
+  "emailDe": "dazocc@gmail.com",
+  "assunto": "teste usando aws",
+  "texto": "aqui vai um teste",
+  "provedorEmailType": "AWS"
+}
+
+### Send GET
+GET http://localhost:8080/api/v1/email
